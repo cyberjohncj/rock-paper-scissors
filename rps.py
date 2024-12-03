@@ -66,7 +66,6 @@ def bestOf(x):
             print(f"""You {'won the Game!' if plr_wins == x else 'lost the Game!' if bot_wins == x else ''}""")
             break
 
-# Having a while loop will let the player go multiple rounds.
 while True:
     print("Welcome to Rock Paper Scissors! Select a Gamemode:")
     print(GAME_OPTIONS)
